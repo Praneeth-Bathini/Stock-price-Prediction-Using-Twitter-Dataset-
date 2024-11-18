@@ -19,7 +19,8 @@ Adherence to Best Practices on AI/ML: The internship offers quality data, proper
 The methodology for predicting stock prices using a Twitter dataset involves several systematic steps, from data collection and preprocessing to sentiment analysis and machine learning model development. The following outlines the key components of the methodology:
 
   1. Data Collection
-             a. Twitter Data
+     
+      a. Twitter Data
 API Access: Utilize the Twitter API to collect tweets related to specific companies or stock market trends. Tweets can be filtered based on relevant keywords, hashtags, or company names.
 Time Frame: Define a specific time frame for data collection, aligning it with the historical stock price data to ensure consistency. For example, tweets can be collected daily or hourly over a set period leading up to stock price changes.
 Data Storage: Store the collected tweets in a structured format (e.g., CSV or database) containing fields such as tweet ID, timestamp, user information, tweet content, and engagement metrics (likes, retweets).
@@ -29,7 +30,8 @@ Historical Data: Obtain historical stock price data from financial data provider
 Alignment: Ensure that the stock price data aligns with the tweet timestamps for accurate correlation analysis.
 
    2. Data Preprocessing
-             a.Text Preprocessing
+      
+      a.Text Preprocessing
 Cleaning: Remove unnecessary characters, URLs, and special symbols from the tweet content. This may involve using regular expressions and natural language processing libraries (e.g., NLTK, spaCy).
 Tokenization: Break down the cleaned text into individual tokens (words or phrases) for further analysis.
 Stop Word Removal: Remove common stop words (e.g., "the," "is," "and") that do not contribute significantly to sentiment analysis.
@@ -46,11 +48,12 @@ Lagged Prices: Previous day stock prices to capture temporal dependencies.
 Trading Volume: Daily trading volume to assess market activity.
 Technical Indicators: Additional features like moving averages or Relative Strength Index (RSI) to enhance predictive power.
 
-    4. Model Development
-             a. Data Splitting
+   4. Model Development
+       
+       a. Data Splitting
 Training and Testing Sets: Split the dataset into training and testing subsets (e.g., 80% training, 20% testing) to evaluate model performance accurately.
 
-        b. Machine Learning Models
+       b. Machine Learning Models
 Model Selection: Choose appropriate machine learning algorithms for stock price prediction, such as:
 Linear Regression: For establishing a baseline model.
 Support Vector Machines (SVM): To capture non-linear relationships.
@@ -58,18 +61,21 @@ Decision Trees/Random Forest: For feature importance and robustness.
 Neural Networks: For capturing complex patterns and interactions in the data.
 Model Training: Train the selected models using the training dataset, optimizing hyperparameters through techniques like Grid Search or Random Search to enhance performance.
 
-    5. Model Evaluation
+  5. Model Evaluation
+
 Performance Metrics: Evaluate model performance using metrics such as:
 Mean Absolute Error (MAE): To measure average prediction error.
 Root Mean Squared Error (RMSE): To assess the magnitude of prediction errors.
 R-squared: To measure the proportion of variance explained by the model.
 Cross-Validation: Implement k-fold cross-validation to ensure the model's robustness and prevent overfitting.
 
-    6. Deployment and Visualization
+  6. Deployment and Visualization
+     
 Real-Time Prediction: Deploy the trained model to make real-time stock price predictions based on incoming Twitter data.
 Visualization: Create visualizations of the predicted stock prices against actual prices, sentiment trends over time, and other relevant metrics using libraries like Matplotlib or Seaborn. This helps in understanding the model's performance and sentiment impact visually.
 
  7. Continuous Learning
+  
 Model Updates: Regularly update the model with new data to improve accuracy and adaptability over time. Implementing continuous learning techniques ensures that the model evolves alongside changing market conditions and sentiment trends.
 
 
