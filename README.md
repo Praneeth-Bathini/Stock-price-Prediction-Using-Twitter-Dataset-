@@ -5,9 +5,10 @@ The results highlight the importance of social sentiment in stock market predict
 
 Keywords: Stock Price Prediction, Twitter Sentiment Analysis, Machine Learning, Natural Language Processing (NLP), Social Media Influence, Sentiment Classification, Financial Market Prediction, Time Series Forecasting, Long Short-Term Memory (LSTM), Stock Market Analysis, Predictive Modeling, Data Mining, Big Data, Sentiment-Driven Investment
 
-Dataset: kaggle Dataset
+                                                   Dataset
+kaggle Dataset
 
-CONCLUSION
+                                                   CONCLUSION
 
 In this project, we successfully developed a stock price prediction system that leverages Twitter sentiment analysis to enhance forecasting accuracy. By integrating social media data with historical stock prices, we demonstrated the significant impact that public sentiment can have on financial markets. The project utilized machine learning techniques, including regression models and advanced algorithms such as Long Short-Term Memory (LSTM) networks, to analyze patterns between Twitter sentiment and stock price fluctuations.
 The process began with comprehensive data collection, where we gathered tweets related to specific stocks and preprocessed the data to ensure its quality. The sentiment analysis, performed using natural language processing techniques, classified tweets into positive, negative, and neutral sentiments. We then combined this sentiment data with historical stock prices to train our predictive models.
